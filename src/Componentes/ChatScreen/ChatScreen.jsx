@@ -3,8 +3,8 @@ import './ChatScreen.css'
 import { useParams } from 'react-router'
 /* import { getContactById } from '../../Servicios/JS_Servis_Contac' */
 import { getContactById } from '../../Servicios/servis_contac.js'
-import { MenssageList } from '../MenssageList/MenssageList'
-import NewMensaje from '../Newmensaje/Newmensaje'
+import { MenssageList } from '../MenssageList/MenssageList.jsx'
+import NewMensaje from '../Newmensaje/NewMensaje.jsx'
 
 const ChatScreen = () => {
     const { contact_id } = useParams()
