@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menssage } from '../Menssage/Menssage'
+import { Menssage } from '../Menssage/Menssage,jsx'
 
 export const MenssageList = ({menssages, deleteMenssageBy_id}) => {
 const mensajes = menssages.map(

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Contacto_List from '../Contactos_List/Contacto_List';
-import { getContactList } from '../../Servicios/JS_Servis_Contac';
+import Contacto_List from '../Contactos_List/Contacto_List.jsx';
+import { getContactList } from '../../Servicios/servis_contac.js';
 import './ContactScreen.css'
 
 

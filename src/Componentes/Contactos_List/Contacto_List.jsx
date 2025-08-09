@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactScreen  from '../ContactScreen/ContactScreen'
-import Contacto from '../Contacto/Contacto'
+import ContactScreen  from '../ContactScreen/ContactScreen.jsx'
+import Contacto from '../Contacto/Contacto.jsx'
 
 export default function Contacto_List({ contactos }) {
     const contactoo = contactos.map((contacto) => (
