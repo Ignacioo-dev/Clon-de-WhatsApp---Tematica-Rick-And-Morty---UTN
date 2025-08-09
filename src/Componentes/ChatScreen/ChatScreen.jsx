@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import './ChatScreen.css'
 import { useParams } from 'react-router'
-import { getContactById } from '../../Servicios/JS_Servis_Contac'
+/* import { getContactById } from '../../Servicios/JS_Servis_Contac' */
+import { getContactById } from '../../Servicios/servis_contac.js'
 import { MenssageList } from '../MenssageList/MenssageList'
 import NewMensaje from '../Newmensaje/Newmensaje'
 
