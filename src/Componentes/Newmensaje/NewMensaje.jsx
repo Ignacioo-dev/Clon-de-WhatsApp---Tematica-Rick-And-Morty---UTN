@@ -1,5 +1,5 @@
 import React from 'react'
-import './NewMensaje.css'
+import './nuevo_mensaje.css'
 
 function NewMensaje({add_new_menssage}) {
 
