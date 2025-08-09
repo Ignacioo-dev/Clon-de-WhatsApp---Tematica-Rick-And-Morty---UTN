@@ -1,0 +1,37 @@
+/* Fondo general: aprovechamos el fondo que ya usa WhatsApp */
+.inicio-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(241, 241, 242, 0.9); /* Gris claro tipo WhatsApp */
+    background: transparent; /* Mantiene el fondo con íconos */
+}
+
+/* Título principal */
+.inicio-container h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'roboto';
+}
+
+/* Subtítulo */
+.inicio-container h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(241, 241, 242, 0.75);
+    font-family: 'roboto';
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    .inicio-container h1 {
+        font-size: 1.6rem;
+    }
+    .inicio-container h2 {
+        font-size: 1rem;
+    }
+}

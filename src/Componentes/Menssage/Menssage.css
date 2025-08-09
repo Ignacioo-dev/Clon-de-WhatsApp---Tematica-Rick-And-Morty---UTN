@@ -1,0 +1,85 @@
+
+.contenedor.izquierda {
+    background-color: #144d37;
+    max-width: 40%;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    align-self: flex-start;
+    padding: 3px;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.contenedor .derecha {
+    background-color: #2b2b2b;
+    max-width: 40%;
+    width: fit-content;
+    margin: 5px 5px 0 5px;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 3px;
+    border-radius: 15px 15px 0px 15px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: white;
+    padding: 8px 8px 0 8px;
+    font-family: roboto;
+}
+
+.mensaje p {
+    text-align: left;
+}
+
+.datos span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+    right: 10px;
+    color: white;
+    font-family: roboto;
+    font-weight: 10;
+    font-style: italic;
+    font-size: 12px;
+    padding: 0px;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px 0 8px; 
+}
+
+.datos button{
+    visibility: hidden;
+    padding: 0px 3px;
+    border-radius: 5px;
+    color: #fff;
+    background: #9b252b;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s;
+    size: 12px;
+}
+
+.datos:hover button{
+    visibility: visible;
+    opacity: 1;
+} 
+
+button:active{
+    transform: scale(0.96);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
